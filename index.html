@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>NENECHICKEN :: 네네치킨</title>
+	<link rel="shotcut icon" href="images/chicken.ico">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap&subset=korean" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/main.js"></script>
+</head>
+
+<body>
+	<ul class="skip">
+		<li><a href="#container">본문바로가기</a></li>
+		<li><a href="#nav">메인메뉴바로가기</a></li>
+	</ul>
+
+	<!-- header -->
+	<header>
+		<!-- headTop -->
+		<div class="headTop">
+			<div class="center">
+				<h1 class="logo"><a href="#"><img src="images/header_logo.svg" alt="네네치킨"></a></h1>
+				<ul class="gnb">
+					<li>
+						<select>
+							<option value="KR">KR</option>
+							<option value="EN">EN</option>
+						</select>
+					</li>
+					<li><a href="#">로그인</a></li>
+					<li><a href="#">회원가입</a></li>
+					<li><a href="#">온라인 주문</a></li>
+				</ul>
+				<form class="search clearFix">
+					<input type="text" placeholder="스노윙치즈">
+					<p class="iSearch"><a href="#"><img src="images/icon_search.png" alt="검색"></a></p>
+				</form>
+				<p class="hamBtn"><a href="#"><img src="images/icon_all03.png" alt="전체카테고리"></a></p>
+				<p class="searchBtn"><a href="#"><img src="images/icon_search.png" alt="검색"></a></p>
+			</div>
+		</div>
+		<!-- headBottom -->
+		<div class="headBottom">
+			<div class="center clearFix">
+				<div class="cateWrap">
+					<p class="cateHam"><a href="#"><img src="images/icon_all03.png" alt="전체카테고리"></a></p>
+					<ul id="cateNav">
+						<li>
+							<a href="#">브랜드</a>
+							<ul class="sub">
+								<li><a href="#">회사개요</a></li>
+								<li><a href="#">CEO메시지</a></li>
+								<li><a href="#">연혁 및 수상</a></li>
+								<li><a href="#">언론보도</a></li>
+								<li><a href="#">홍보영상</a></li>
+								<li><a href="#">사회공헌</a></li>
+								<li><a href="#">NENE GALLERY</a></li>
+								<li><a href="map.html">오시는 길</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">메뉴</a>
+							<ul class="sub">
+								<li><a href="#">인기메뉴</a></li>
+								<li><a href="#">스페셜치킨</a></li>
+								<li><a href="#">후라이드</a></li>
+								<li><a href="#">양념치킨</a></li>
+								<li><a href="#">웰빙치킨</a></li>
+								<li><a href="#">구운치킨</a></li>
+								<li><a href="#">반반메뉴</a></li>
+								<li><a href="#">반반반메뉴</a></li>
+								<li><a href="#">순살치킨</a></li>
+								<li><a href="#">이벤트메뉴</a></li>
+								<li><a href="#">사이드메뉴</a></li>
+								<li><a href="#">네네치킨Fun</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">이벤트</a>
+							<ul class="sub">
+								<li><a href="#">진행중인 이벤트</a></li>
+								<li><a href="#">지난 이벤트</a></li>
+								<li><a href="#">당첨자 발표</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">해피 투데이</a>
+							<ul class="sub">
+								<li><a href="#">문화</a></li>
+								<li><a href="#">인물&amp;풍경</a></li>
+								<li><a href="#">자연</a></li>
+								<li><a href="#">시와그림</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">창업 안내</a>
+							<ul class="sub">
+								<li><a href="#">개설정보</a></li>
+								<li><a href="#">가맹점문의</a></li>
+								<li><a href="#">지사검색</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="subBg"></div>
+				<ul id="nav">
+					<li>
+						<a href="#">브랜드</a>
+						<ul class="sub">
+							<li><a href="#">회사개요</a></li>
+							<li><a href="#">CEO메시지</a></li>
+							<li><a href="#">연혁 및 수상</a></li>
+							<li><a href="#">언론보도</a></li>
+							<li><a href="#">홍보영상</a></li>
+							<li><a href="#">사회공헌</a></li>
+							<li><a href="#">NENE GALLERY</a></li>
+							<li><a href="map.html">오시는 길</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">메뉴</a>
+						<ul class="sub">
+							<li><a href="#">인기메뉴</a></li>
+							<li><a href="#">스페셜치킨</a></li>
+							<li><a href="#">후라이드</a></li>
+							<li><a href="#">양념치킨</a></li>
+							<li><a href="#">웰빙치킨</a></li>
+							<li><a href="#">구운치킨</a></li>
+							<li><a href="#">반반메뉴</a></li>
+							<li><a href="#">반반반메뉴</a></li>
+							<li><a href="#">순살치킨</a></li>
+							<li><a href="#">이벤트메뉴</a></li>
+							<li><a href="#">사이드메뉴</a></li>
+							<li><a href="#">네네치킨Fun</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">이벤트</a>
+						<ul class="sub">
+							<li><a href="#">진행중인 이벤트</a></li>
+							<li><a href="#">지난 이벤트</a></li>
+							<li><a href="#">당첨자 발표</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">해피 투데이</a>
+						<ul class="sub">
+							<li><a href="#">문화</a></li>
+							<li><a href="#">인물&amp;풍경</a></li>
+							<li><a href="#">자연</a></li>
+							<li><a href="#">시와그림</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">창업 안내</a>
+						<ul class="sub">
+							<li><a href="#">개설정보</a></li>
+							<li><a href="#">가맹점문의</a></li>
+							<li><a href="#">지사검색</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="mCateWrapW">
+				<div class="mCateWrap">
+					<div class="cateHead">
+						<div class="cateSearch">
+							<input type="text" placeholder="스노윙치즈">
+							<p class="iconSearch"><a href="#"><img src="images/icon_search.png" alt="검색"></a></p>
+						</div>
+						<p class="closeBtn"><a href="#"><img src="images/icon_close01.png" alt="close"></a></p>
+					</div>
+					<ul class="mCategory">
+						<li>
+							<a href="#">브랜드</a>
+							<ul class="sub">
+								<li><a href="#">회사개요</a></li>
+								<li><a href="#">CEO메시지</a></li>
+								<li><a href="#">연혁 및 수상</a></li>
+								<li><a href="#">언론보도</a></li>
+								<li><a href="#">홍보영상</a></li>
+								<li><a href="#">사회공헌</a></li>
+								<li><a href="#">NENE GALLERY</a></li>
+								<li><a href="map.html">오시는 길</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">메뉴</a>
+							<ul class="sub">
+								<li><a href="#">인기메뉴</a></li>
+								<li><a href="#">스페셜치킨</a></li>
+								<li><a href="#">후라이드</a></li>
+								<li><a href="#">양념치킨</a></li>
+								<li><a href="#">웰빙치킨</a></li>
+								<li><a href="#">구운치킨</a></li>
+								<li><a href="#">반반메뉴</a></li>
+								<li><a href="#">반반반메뉴</a></li>
+								<li><a href="#">순살치킨</a></li>
+								<li><a href="#">이벤트메뉴</a></li>
+								<li><a href="#">사이드메뉴</a></li>
+								<li><a href="#">네네치킨Fun</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">이벤트</a>
+							<ul class="sub">
+								<li><a href="#">진행중인 이벤트</a></li>
+								<li><a href="#">지난 이벤트</a></li>
+								<li><a href="#">당첨자 발표</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">해피 투데이</a>
+							<ul class="sub">
+								<li><a href="#">문화</a></li>
+								<li><a href="#">인물&amp;풍경</a></li>
+								<li><a href="#">자연</a></li>
+								<li><a href="#">시와그림</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">창업 안내</a>
+							<ul class="sub">
+								<li><a href="#">개설정보</a></li>
+								<li><a href="#">가맹점문의</a></li>
+								<li><a href="#">지사검색</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- #container -->
+	<div id="container">
+		<!-- visual -->
+		<p class="mainBanner"><a href="#"></a></p>
+		<!-- contents -->
+		<section class="contents">
+			<h2 class="blind">NENE BEST, 공지사항, 이벤트배너, 채용안내, 창업안내, 매장안내, STORE SEARCH, ONLINE ORDER, VIDEO, NENE GALLERY</h2>
+			<section class="best">
+				<h2 class="title">NENE BEST <span>이달의 인기 메뉴</span></h2>
+				<div class="center">
+					<div class="chickenWrap">
+						<ul class="chicken clearFix">
+							<li>
+								<a href="#">
+									<span></span>
+									<img src="images/chicken_img01.jpg" alt="치즈스노윙">
+									<span>치즈스노윙</span>
+									<span class="popText">입 안에서 녹는 달콤하고 깔끔한 야채시즈닝과<br>부드럽고 진한 치즈시즈닝의 맛이 일품</span>
+									<img src="images/icon_more_btn.png" alt="더보기" class="more">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="imgBg"></span>
+									<img src="images/chicken_img02.jpg" alt="매콤치즈스노윙">
+									<span>매콤치즈스노윙</span>
+									<span class="popText">바삭한 치킨 위에 매콤한 눈이 내린다!<br> 스노윙 치킨, 이번엔 빨간 맛!</span>
+									<img src="images/icon_more_btn.png" alt="더보기" class="more">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="imgBg"></span>
+									<img src="images/chicken_img03.jpg" alt="크리미언치킨">
+									<span>크리미언치킨</span>
+									<span class="popText">입 안 가득 부드러운 크림과<br>고소하고 아삭한 양파의 만남</span>
+									<img src="images/icon_more_btn.png" alt="더보기" class="more">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="imgBg"></span>
+									<img src="images/chicken_img04.jpg" alt="후라이드">
+									<span>후라이드</span>
+									<span class="popText">겉은 바삭하고 속살은 부드러운<br>네네치킨 대표메뉴</span>
+									<img src="images/icon_more_btn.png" alt="더보기" class="more">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="imgBg"></span>
+									<img src="images/chicken_img05.jpg" alt="양념치킨">
+									<span>양념치킨</span>
+									<span class="popText">매콤달콤한 맛의 네네치킨 대표 양념치킨</span>
+									<img src="images/icon_more_btn.png" alt="더보기" class="more">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="imgBg"></span>
+									<img src="images/chicken_img06.jpg" alt="핫블링치킨">
+									<span>핫블링치킨</span>
+									<span class="popText">핫하고 달콤한 소스와 홍, 청 고추의<br>매력적인 만남의 치킨!</span>
+									<img src="images/icon_more_btn.png" alt="더보기" class="more">
+								</a>
+							</li>
+						</ul>
+					</div>
+					<ul class="arrowBtn1">
+						<li class="leftBtn leftBtn1"><a href="#"><img src="images/arrow_btn_left.png" alt="left"></a></li>
+						<li class="rightBtn rightBtn1"><a href="#"><img src="images/arrow_btn_right.png" alt="right"></a></li>
+					</ul>
+					<ul class="listBtn">
+						<li class="active"><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">5</a></li>
+						<li><a href="#">6</a></li>
+					</ul>
+				</div>
+			</section>
+			<section class="noticeBanner">
+				<h2 class="blind">요기요 첫주문 5,000원 할인 / 공지사항</h2>
+				<div class="eventBanner"><a href="#"></a></div>
+				<div class="notice">
+					<div class="center clearFix">
+						<p class="title">공지사항</p>
+						<ul class="rightText">
+							<li class="t1"><a href="">'2018 서울 중소기업인대회' 유공자 포상 수상</a></li>
+							<li class="t2"><a href="">[2017 브랜드고객만족도] 치킨부문 2년 연속 1위 선정</a></li>
+							<li class="t3"><a href="">[2017 대한민국소비자만족도 1위] 프랜차이즈 치킨부분 선정</a></li>
+						</ul>
+						<p class="arrowRight"><a href="#"><img src="images/arrow_btn_w_right.png" alt="더보기"></a></p>
+					</div>
+				</div>
+			</section>
+			<section class="guide">
+				<h2 class="blind">채용안내, 창업안내, 매장안내</h2>
+				<div class="center">
+					<ul class="guides clearFix">
+						<li><a href="#"><img src="images/guide_img01.png" alt="채용 안내"></a><span>채용 안내</span></li>
+						<li><a href="#"><img src="images/guide_img02.png" alt="창업 안내"></a><span>창업 안내</span></li>
+						<li><a href="#"><img src="images/guide_img03.png" alt="매장 안내"></a><span>매장 안내</span></li>
+					</ul>
+				</div>
+			</section>
+			<section class="service">
+				<h2 class="blind">store search, online order</h2>
+				<div class="center clearFix">
+					<div class="store">
+						<h2 class="title">STORE SEARCH</h2>
+						<p><a href="#"><img src="images/service_img01.jpg" alt="네네치킨 매장을 찾아보세요!"></a></p>
+					</div>
+					<div class="order">
+						<h2 class="title">ONLINE ORDER</h2>
+						<p><a href="#"><img src="images/service_img02.jpg" alt="네네치킨 온라인 주문 서비스"></a></p>
+					</div>
+				</div>
+			</section>
+			<section class="video">
+				<h2 class="title">VIDEO <span>이달의 화제 영상</span></h2>
+				<div class="center">
+					<video src="video/video1.mp4" poster="images/video_poster.jpg" controls></video>
+					<p class="subTitle"><a href="#">네네치킨 TVCF '매콤치즈스노윙'편 대공개 (15s)</a></p>
+				</div>
+			</section>
+			<section class="gallery clearFix">
+				<h2 class="blind">네네 갤러리</h2>
+				<div class="center clearFix">
+					<h2 class="title">NENE GALLERY <span>네네갤러리</span></h2>
+					<div class="cRight clearFix">
+						<p><img src="images/c_img01.png" alt="네네캐릭터1"></p>
+						<ul class="arrowBtn2">
+							<li class="leftBtn leftBtn2"><a href="#"><img src="images/arrow_left_b.png" alt="left"></a></li>
+							<li class="rightBtn rightBtn2"><a href="#"><img src="images/arrow_right_b.png" alt="right"></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="galleryWrap">
+					<ul class="galleryImg">
+						<li class="g1"><a href="#"><img src="images/gallery_img01.png" alt="갤러리1"></a></li>
+						<li class="g2"><a href="#"><img src="images/gallery_img02.png" alt="갤러리2"></a></li>
+						<li class="g3"><a href="#"><img src="images/gallery_img03.png" alt="갤러리3"></a></li>
+						<li class="g4"><a href="#"><img src="images/gallery_img04.png" alt="갤러리4"></a></li>
+						<li class="g5"><a href="#"><img src="images/gallery_img05.png" alt="갤러리5"></a></li>
+						<li class="g6"><a href="#"><img src="images/gallery_img06.png" alt="갤러리6"></a></li>
+						<li class="g7"><a href="#"><img src="images/gallery_img07.png" alt="갤러리7"></a></li>
+						<li class="g8"><a href="#"><img src="images/gallery_img08.png" alt="갤러리8"></a></li>
+					</ul>
+				</div>
+			</section>
+		</section>
+	</div>
+
+	<!-- footer -->
+	<footer>
+		<!-- footTop -->
+		<div class="footTop">
+			<div class="center clearFix">
+				<div class="tel">
+					<img src="images/c_img02.png" alt="네네캐릭터2">
+					<span>1599 - 4479</span>
+				</div>
+				<ul class="footMenu">
+					<li class="footMenu1"><a href="#">문의하기</a></li>
+					<li class="footMenu2"><a href="#">이용약관</a></li>
+					<li class="footMenu3"><a href="#">개인정보처리방침</a></li>
+					<li class="footMenu4"><a href="#">이메일무단수집거부</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- footBottom -->
+		<div class="footBottom">
+			<div class="center clearFix">
+				<p class="footLogo"><img src="images/footer_logo.svg" alt="네네치킨"></p>
+				<address>
+					<p>서울특별시 도봉구 노해로 391</p>
+					<p>네네빌딩 (우) 01415</p>
+					<p>Tel_070-4340-0918 업무시간 : 09:00~18:00 (점심시간 12:00~13:00)</p>
+					<p>Fax_02-6918-6152</p>
+					<p>Email_cs@nenechicken.com</p>
+					<p class="copy">&copy;COPYRIGHT 2019 BY NENECHICKEN. ALL RIGHTS RESERVED.</p>
+				</address>
+			</div>
+		</div>
+	</footer>
+	<div class="quick">
+		<ul class="quickMenu">
+			<li class="sns1"><a href="#"></a></li>
+			<li class="sns2"><a href="#"></a></li>
+			<li class="sns3"><a href="#"></a></li>
+			<li class="top"><a href="#">TOP</a></li>
+		</ul>
+	</div>
+	<div class="fixed">
+		<ul>
+			<li><a href="#"><img src="images/icon_fixed_01.png" alt="홈"><span>홈</span></a></li>
+			<li><a href="#"><img src="images/icon_fixed_02.png" alt="마이페이지"><span>마이페이지</span></a></li>
+			<li><a href="#"><img src="images/icon_fixed_03.png" alt="장바구니"><span>장바구니</span></a></li>
+			<li><a href="#"><img src="images/icon_fixed_04.png" alt="온라인 주문"><span>온라인 주문</span></a></li>
+		</ul>
+	</div>
+</body></html>
